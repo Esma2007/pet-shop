@@ -1,0 +1,126 @@
+.sec5{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    .catf{
+        width: 1280px;
+        height: 77px;
+        background-color:#002842;
+        display: flex;
+        align-items: center;
+        border-radius: 40px;
+        div{
+            height: 100%;
+        }
+        .pr{
+            width: 141px;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            .tag{
+                height: 65px;
+                width: 123px;
+                align-items: start;
+                justify-content: start;
+                font-size: 50px;
+                color: #FFD100;
+            }
+        }
+        .sal{
+            width: 225px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .h31{
+                color: #FFD100;
+                font-family: 'Readex Pro', sans-serif;
+                font-size: 28px;
+                font-weight: 900;
+                line-height: 1em;
+            }
+            .h32{
+                color: white;
+                font-size: 65px;
+                line-height: 1.4em;
+                font-weight: 700;
+                font-family: 'Fredoka', sans-serif;
+            }
+            p{
+                color: #FFD100;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 27px;
+                line-height: 1em;
+                font-weight: 600;
+            }
+        }
+        .pi{
+            width: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            img{
+                object-fit: cover;
+                height: 130px;
+                cursor: pointer;
+            }
+
+        }
+        .te{
+            width: 345px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            .tex{
+                width: 300px;
+                height: 45px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h5{
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 500;
+                    font-family: 'Readex Pro', sans-serif;
+                }
+                p{
+                    color: #E5EEFF;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 13px;
+                    letter-spacing: 0;
+                }
+            }
+            
+        }
+        .bu{
+            width: 331px;
+            display: flex;
+            justify-content: start;
+            .but{
+                width: 320px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                button{
+                    border-radius: 100px;
+                    padding: 16px 40px;
+                    color: #002842;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 1em;
+                    cursor: pointer;
+                    background-color: #FFD100;
+                    border: none;
+                    &:hover{
+                        background-color: white;
+                        transition: all .3s ease-in;
+                    }
+                }
+            }
+        }
+
+    }
+}

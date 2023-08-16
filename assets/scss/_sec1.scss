@@ -1,0 +1,96 @@
+.sec1{
+    width: 100%;
+    height: 430px;
+    background-color: #FFBCC6 ;
+    display: flex;
+    justify-content: space-between;
+    .divs1{
+        height: 100%;
+        width: 33.5%;
+        display: flex;
+        justify-content: start;
+        .dog{
+            width: 600px;
+            height: 100%;
+            img{
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+    .divs2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .texts1{
+            height: 290px;
+            width: 420px;    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Readex Pro', sans-serif;
+            color:  #002842;
+            justify-content: space-between;
+            h4{
+                font-size: 23px;
+            }
+            .ps1{
+                font-size: 60px;
+                font-weight: 600;
+                letter-spacing: 4px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .ps2{
+                font-size: 30px;
+                font-weight: 700;
+                letter-spacing: 4px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .ps3{
+                text-align: center;
+                padding: 0% 10%;
+                font-size: 16px;
+                letter-spacing: .5px;
+              
+            }
+            button{
+                background-color: #002842;
+                border-radius: 100px;
+                padding: 16px 40px;
+                color: white;
+                font-family: 'Readex Pro', sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1em;
+                cursor: pointer;
+                border: none;
+                &:hover{
+                    background-color: black;
+                    transition: all .3s ease-in;
+                }
+
+            }
+        }
+    }
+    .divs3{
+        height: 100%;
+        width: 33.5%;
+        display: flex;
+        justify-content: end;
+        
+        
+        .foods1{
+            height: 100%;
+            width: 401px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            img{
+                object-fit: cover;
+                height: 345px;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.sec6{
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sh{
+        width:1275px ;
+        height: 50px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        h2{
+            font-size: 20px;
+            line-height: 1.3em;
+            font-weight: 500;
+            font-family: 'Readex Pro', sans-serif;
+            color:#002842 ;
+        }
+    }
+    .an{
+        width: 1195px;
+        height: 210px;
+        display: flex;
+        justify-content: space-between;
+        .ca{
+            height: 100%;
+            width: 127px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+           
+            &:hover .pi{
+                background-color: #FFD100;
+               
+            }
+            &:hover img{
+                transform: scale(1.05);
+               
+            }
+            img{
+                z-index: 2;
+                position: absolute;
+                height: 165px;
+                top: 0%;
+                transition: all .3s ease-in;
+            }
+           
+            .pi{
+                width: 100%;
+                height: 123px;
+                background-color: #F5F5F5;
+                border-radius: 39px;
+                display: flex;
+                justify-content: center;
+                align-items: end;
+                transition: all .3s ease-in;
+              
+            }
+            .te{
+                width: 100%;
+                height: 35px;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                h2{
+                    font-size: 20px;
+                    line-height: 1.3em;
+                    font-weight: 500;
+                    font-family: 'Readex Pro', sans-serif;
+                    color:#002842 ;
+                    &:hover{
+                        text-decoration: underline 1px;
+                        text-decoration-color: #002842;
+                        transition: all .3 ease-in;
+                        
+                    }
+                }
+            }
+
+        }
+
+       
+    }
+}

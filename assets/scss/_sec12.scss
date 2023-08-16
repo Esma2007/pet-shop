@@ -1,0 +1,208 @@
+.sec12{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .dog{
+        width: 1280px;
+        height: 333px;
+        background-color: #fabdbc;
+        border-radius: 18px;
+        position: relative;
+        overflow: hidden;
+        background-image: url(../img/star-cut.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover 400px;
+        .d{
+            position: absolute;
+            right: -11%;
+            bottom:-65% ;
+            width: 880px;
+            object-fit: cover;
+        }
+        .te{
+            height: 100%;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            .si{
+                height: 210px;
+                width: 237px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+                z-index: 3;
+                position: absolute;
+                h2{
+                    font-size: 45px;
+                    line-height: 1.1em;
+                    font-weight: bolder;
+                    font-family: 'Fredoka', sans-serif;
+                    color: white;
+                }
+                ul{
+                    list-style-type: none;
+                    li{
+                        font-size: 14px;
+                        line-height: 1.6em;
+                        color: white;
+                        font-family: 'Readex Pro', sans-serif;
+                    }
+                }
+                button{
+                    border-radius: 100px;
+                    padding: 16px 40px;
+                    color: black;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 1em;
+                    cursor: pointer;
+                    background-color: #FFD100;
+                    border: none;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                        transition: all .3s ease-in;
+                    }
+                }
+            }
+        }
+    }
+
+    .sts{
+        width: 100%;
+        height: 193px;
+        display: flex;
+        align-items: start;
+        .t1{
+            height: 155px;
+            width: 664px;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            .t2{
+                width: 140px;
+                height: 125px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                    font-size: 24px;
+                    line-height: 1.6em;
+                    font-weight: 400;
+                    font-family: 'Readex Pro', sans-serif;
+                    color: black;
+                }
+                .ul{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style-type: none;
+                    width: 100px;
+                    font-size: 20px;
+                    color: #27BE88;
+                }
+                p{
+                    color: #2E3031;
+                    font-size: 12px;
+                    font-weight: 1.4em;
+                    font-family: 'Readex Pro', sans-serif;
+                    span{
+                        text-decoration: underline 1px ;
+                        cursor: pointer;
+                    }
+
+                }
+                img{
+                    object-fit: cover;
+                    width: 80px;
+                }
+            }
+        }
+        .n{
+            width: 80px;
+            height: 100%;
+        }
+        .ra{
+            height: 100%;
+            width: 802px;
+            display: flex;
+            align-items: end;
+            .ra2{
+                width: 100%;
+                height: 146px;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 135px;
+                    width: 250px;
+                    
+                    .text{
+                        height: 95px;
+                        width: 100%;
+                        cursor: pointer;
+                    }
+                    .star{
+                        width: 100%;
+                        height: 24px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .ul{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            list-style-type: none;
+                            width: 100px;
+                            font-size: 20px;
+                            color: #27BE88;
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 1.4em;
+                            color: #59606D;
+                            font-family: 'Readex Pro', sans-serif;
+                            cursor: pointer;
+                        }
+                    }
+                    h6{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #000;
+                        font-family: 'Readex Pro', sans-serif;
+                    }
+                    .p1{
+                        font-size: 12px;
+                        line-height: 1.4em;
+                        color: #002842;
+                        font-family: 'Readex Pro', sans-serif;
+                    }
+                    .p2{
+                        font-size: 12px;
+                            line-height: 1.4em;
+                            color: #59606D;
+                            font-family: 'Readex Pro', sans-serif;
+                    }
+                }
+                .rat3, .rat1{
+                    height: 145px;
+                    .text{
+                        height: 105px;
+                    }
+                }
+              
+            }
+        }
+    }
+}
